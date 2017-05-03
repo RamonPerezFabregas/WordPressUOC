@@ -7,7 +7,9 @@
  * @package storefront
  */
 
-?><!DOCTYPE html>
+?>
+
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -20,6 +22,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
+
 	<?php
 	do_action( 'storefront_before_header' ); ?>
 

@@ -17,13 +17,13 @@
 
 // ** Configuració de MySQL - Pots obtenir aquestes informacions del teu proveïdor de web ** //
 /** El nom de la base de dades per al WordPress */
-define('DB_NAME', 'rperezfa');
+define('DB_NAME', 'elnomdelabasededades');
 
 /** El teu nom d'usuari a MySQL */
-define('DB_USER', 'rperezfa');
+define('DB_USER', 'elnomdusuari');
 
 /** La teva contrasenya a MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'latevacontrasenya');
 
 /** Nom del host de MySQL */
 define('DB_HOST', 'localhost');

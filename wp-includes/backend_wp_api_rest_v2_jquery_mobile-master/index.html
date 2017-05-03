@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Llistat de pel·licules</title>
+
+    <link rel="stylesheet" href="css/post-mobile-light.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <div class="post-navigation-bar">
+        <div class="post-navigation-bar__item left quarter">
+            <a class="post-icon-button--quiet">
+              <span class="post-icon post-icon--menu-stack"></span>
+            </a>
+        </div>
+
+        <div class="post-navigation-bar__item right quarter">
+            <a class="post-icon-button--quiet">
+              <span class="post-icon post-icon--edit"></span>
+            </a>
+        </div>
+    </div>
+
+    <div class="post-list__container">
+
+      <h3 class="post-list header">Llistat de pel·licules</h3>
+      <ul class="post-list" data-role="listview" data-filter="true" data-input="#filter-for-listview">
+
+      </ul>
+    </div>
+
+    <!-- When in Phonegap folder uncomment this
+    <script type="text/javascript" src="phonegap.js"></script>  -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+      <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/app.js?f"></script>
+    <script type="text/javascript">app.init();</script>
+  </body>
+</html>
